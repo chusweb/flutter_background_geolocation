@@ -412,7 +412,7 @@ class HomeViewState extends State<HomeView> with TickerProviderStateMixin<HomeVi
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('BG Geo'),
+          title: const Text(ENV.APP_TITLE),
           centerTitle: true,
           leading: IconButton(onPressed: _onClickHome, icon: Icon(Icons.home, color: Colors.black)),
           backgroundColor: Theme.of(context).bottomAppBarColor,
